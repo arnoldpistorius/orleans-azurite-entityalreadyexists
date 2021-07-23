@@ -26,7 +26,10 @@ User-Agent: Azure-Cosmos-Table/1.0.5 (.NET CLR 5.0.8; Win32NT 10.0.19043.0)
 x-ms-version: 2017-07-29
 x-ms-date: Fri, 23 Jul 2021 14:13:53 GMT
 Authorization: SharedKey REDACTED
+```
 
+Response:
+```
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Content-Type: application/json;odata=nometadata;streaming=true;charset=utf-8
@@ -36,10 +39,7 @@ x-ms-version: 2017-07-29
 X-Content-Type-Options: nosniff
 Date: Fri, 23 Jul 2021 14:13:53 GMT
 Content-Length: 278
-```
 
-Response:
-```
 {"value":[{"PartitionKey":"Orleans_GrainReference=0000000000000000000000000000000006ffffff9834267b+helloworld","RowKey":"Demo.MyGrainWithState,Demo.state","Timestamp":"2021-07-23T14:13:39.4157924Z","Data":"ZAECvAEbbCAARGVtby5NeUdyYWluV2l0aFN0YXRlK1N0YXRlLERlbW8FAAAASGVsbG8="}]}
 ```
 
@@ -61,6 +61,7 @@ x-ms-date: Fri, 23 Jul 2021 14:12:30 GMT
 Authorization: SharedKey devstoreaccount1:onl05zL567Lm7yg0AjQRFrBZbAKRnFKe0m1b35cF4u0=
 ```
 
+Response:
 ```txt
 HTTP/1.1 200 OK
 Server: Azurite-Table/3.13.1
